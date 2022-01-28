@@ -1,0 +1,49 @@
+{
+  "contacts": [
+    {
+      "name": "Matti Meikäläinen",
+      "number": "0440696969",
+      "id": 1
+    },
+    {
+      "name": "Nyan",
+      "number": "912039",
+      "id": 2
+    },
+    {
+      "name": "diipadaapa",
+      "number": "999",
+      "id": 3
+    },
+    {
+      "name": "Jiihaa",
+      "number": "Jahuu",
+      "id": 4
+    },
+    {
+      "name": "Toimiikos",
+      "number": "1337",
+      "id": 7
+    },
+    {
+      "name": "What is ID?",
+      "number": "Maybe 5?",
+      "id": 8
+    },
+    {
+      "name": "No, it was 8",
+      "number": "Great shock!",
+      "id": 9
+    },
+    {
+      "name": "Will it now be 6?",
+      "number": "Hmmmm",
+      "id": 10
+    },
+    {
+      "name": "It wasn't",
+      "number": "How peculiar",
+      "id": 11
+    }
+  ]
+}
