@@ -22,9 +22,10 @@ export default function AddNumberForm({setContacts, contacts}) {
 
   return (
   <div>
+    <h3>Add a contact</h3>
     <form onSubmit={handleSubmit}>
       <div><input type="text" onChange={(e) => setName(e.target.value)}></input></div>
-      <div><input type="text" onChange={(e) => setNumber(e.target.value)}></input></div>
+      <input type="text" onChange={(e) => setNumber(e.target.value)}></input>
       <button type='Submit'>Submit</button>
     </form>
   </div>)
