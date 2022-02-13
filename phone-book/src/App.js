@@ -7,6 +7,9 @@ import ContactFilter from "./components/ContactFilter";
 function App() {
   const [contacts, setContacts] = useState([]);
   const [contactsToShow, setContactsToShow] = useState([]);
+  // Maybe bring the filter word here
+  // and make a function for updating contactsToshow so
+  // the contact list can be kept updated even when deleting or submitting
 
   useEffect(() => {
     contactsCrud.getAll()
