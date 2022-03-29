@@ -23,9 +23,9 @@ function App() {
   return (
     <div className="App">
       <h2>Phone book</h2>
-      <AddNumberForm setContacts={setContacts} contacts={contacts} />
+      <AddNumberForm setContacts={setContacts} setContactsToShow={setContactsToShow} contacts={contacts} />
       <ContactFilter setContactsToShow={setContactsToShow} contacts={contacts} />
-      <ContactViewer contactsToShow={contactsToShow} setContacts={setContacts} contacts={contacts}/>
+      <ContactViewer contactsToShow={contactsToShow} setContactsToShow={setContactsToShow} setContacts={setContacts} contacts={contacts}/>
     </div>
   );
 }

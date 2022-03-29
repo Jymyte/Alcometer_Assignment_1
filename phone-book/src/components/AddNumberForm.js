@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import contactsCrud from '../services/contacts-crud';
 
-export default function AddNumberForm({setContacts, contacts}) {
+export default function AddNumberForm({setContacts, setContactsToShow, contacts}) {
   const [name, setName] = useState();
   const [number, setNumber] = useState();
 
@@ -14,7 +14,9 @@ export default function AddNumberForm({setContacts, contacts}) {
 
     contactsCrud.push(newNumber)
       .then((newContact) => {
-        setContacts(contacts.concat(newContact))
+        const temp = contacts.concat(newContact)
+        setContacts(temp)
+        setContactsToShow(temp)
         setName('')
         setNumber('')
       })
